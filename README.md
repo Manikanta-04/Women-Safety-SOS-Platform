@@ -326,7 +326,7 @@ git push origin feature/your-feature-name
 # 5. Open a Pull Request against the main branch
 ```
 
-Please make sure your code follows the existing style and all routes have proper error handling and input validation.
+Please make sure your code follows the existing style and all routes have proper error handling and input validation .
 
 ---
 
@@ -341,5 +341,6 @@ This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE)
 Built with purpose. **SafeHer** — because safety should be accessible to everyone.
 
 *Made with ❤️ for a safer world*
+*Made with by ❤️ for our nation*
 
 </div>
