@@ -1,0 +1,14 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 20px;
+  align-items: start;
+}
+
+.form { display: flex; flex-direction: column; gap: 18px; }
+.sideTitle { font-size: 13px; font-weight: 600; color: var(--text); }
+
+@media (max-width: 720px) {
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { order: -1; }
+}

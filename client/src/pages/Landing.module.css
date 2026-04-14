@@ -1,0 +1,97 @@
+.page { max-width: 900px; margin: 0 auto; padding: 80px 24px 60px; }
+
+.hero { text-align: center; padding: 60px 0 80px; }
+
+.heroBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-2);
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  padding: 5px 12px;
+  border-radius: 99px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.dot {
+  width: 6px; height: 6px;
+  background: var(--success);
+  border-radius: 50%;
+  box-shadow: 0 0 6px var(--success);
+}
+
+.heroTitle {
+  font-size: clamp(40px, 7vw, 68px);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+.accent { color: var(--accent); }
+
+.heroSub {
+  font-size: 17px;
+  color: var(--text-2);
+  max-width: 480px;
+  margin: 0 auto 40px;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+.heroCTA { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+.features { padding: 60px 0; }
+
+.featuresLabel {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-bottom: 24px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.featureCard {
+  background: var(--bg-2);
+  padding: 28px 24px;
+  transition: background var(--transition);
+}
+.featureCard:hover { background: var(--bg-3); }
+
+.featureIcon { font-size: 24px; margin-bottom: 12px; }
+.featureTitle { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 6px; }
+.featureDesc { font-size: 13px; color: var(--text-2); line-height: 1.6; }
+
+.cta {
+  text-align: center;
+  padding: 80px 24px;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  margin-top: 40px;
+}
+
+.ctaTitle { font-size: 30px; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 10px; }
+.ctaSub { font-size: 15px; color: var(--text-2); margin-bottom: 32px; }
+
+@media (max-width: 640px) {
+  .page { padding: 40px 16px; }
+  .hero { padding: 40px 0 60px; }
+}
